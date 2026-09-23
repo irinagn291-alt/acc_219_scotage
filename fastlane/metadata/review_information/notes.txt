@@ -1,0 +1,19 @@
+The build settings include the camera usage string "This app does not use the camera." The camera is never requested, so that dialog does not appear. At launch the system may show a notifications prompt. There is no custom notifications usage string in the build settings. There is no location, photos, or microphone prompt.
+
+There is no login, no in-app purchase, no user-generated content, no account deletion flow, and no App Tracking Transparency prompt.
+
+Scotage is a personal log of lots that bill this month, for people who already know the month is too heavy. A Scot pin marks the month they can bear. The hand aims at the largest overrun lot so that tap can file it quit. There is no bank login.
+
+No credentials or demo account are needed. Cold launch opens four onboarding pages. Page 1: This month sits on a rate face. Lots that bill now ring the rim. The needle is the period-normalized month total. Tap Continue. Page 2: Tap the lot under the hand. That lot files as quit. The needle drops. Cancel-savings rise. Tap Continue. Page 3: A miss cools the wrong arc. The hand stays. Insights keeps the cooled miss and the leftover overrun. Tap Continue. Page 4: Set the Scot you can bear. The pin marks that month. Currency stays on this device. Set Scot pin to 10, then tap Begin. Skip on the first three pages still reaches the face.
+
+After Begin, if the face is vacant it reads No lots this month. Tap Add a lot. Enter a Lot name, Amount 25, Period Monthly, and a Next charge day in this month, then tap Save lot. The job line reads Tap [name] to file it quit. Tap that Aimed lot to file a quit. Add another lot that still sits past the Scot and tap a lot that is not Aimed to cool it. Tap Open Insights to read Leftover overrun, Quit marks, Cooled misses, and Mystery charges. Tap Close. Tap Open Settings for Currency, Scot pin, Local reminder, Reminder time, Contact, How Aim then Quit works, Re-run onboarding, and Reset all data.
+
+Lots, quit marks, hold marks, the Scot, and currency stay on this device; Contact in Settings opens the support page.
+
+Behaviour does not differ by App Store region. Amounts and dates follow the device locale. Currency is the code chosen in Settings or onboarding.
+
+No licence or regulated-industry paperwork applies. The app does not move money, open a bank account, or give financial advice.
+
+The app is a personal log only and gives no recommendations. It does not show health, medical, or product-health information.
+
+The app does not scan barcodes or QR codes.

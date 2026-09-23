@@ -1,0 +1,917 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06A0D43D78858D7CA9F51576 /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BE47A23A7EE49A043A140E /* APIConfig.swift */; };
+		142FCCCA7BCA588C387CFE9A /* Face.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B93421D254B913A91306B1 /* Face.swift */; };
+		15A318AAF9974A0525BF883D /* Scot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9FEB3F7FA08DB099199A73 /* Scot.swift */; };
+		162DF92A773EEA0530E626F4 /* FaceDesk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7652274A931F6E3CFC2019AB /* FaceDesk.swift */; };
+		163F7C88EF20B450D6D9FBD5 /* YearInscriptionSupplementary.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1D30B6480EAF35E1768278 /* YearInscriptionSupplementary.swift */; };
+		16651AAC6850667A149EF311 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9B6203BFF0A5096830446B /* AppDelegate.swift */; };
+		1D0DC77E8FB5643F2538517E /* FaceReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C5A1F616AC4ED34AB437CE /* FaceReview.swift */; };
+		22BAA6E1C54CC6941F62C296 /* LotComposerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B80C7BDEED5338EDCCEA8F /* LotComposerCell.swift */; };
+		276A700513150D6C9499CF49 /* LedgerRimLayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0006E50D1523202093C86F3 /* LedgerRimLayoutTests.swift */; };
+		2F72322BAFAC2036E97392E4 /* LedgerBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DDB1467D03CA3F59547200 /* LedgerBoard.swift */; };
+		34D6133933DCB839B1E85C45 /* Lot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE93B7417062F0FCCF23A7C /* Lot.swift */; };
+		40649E62B1FFC6B57E675CFC /* LotComposerForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A8267F70B044C8D556B48E /* LotComposerForm.swift */; };
+		417F85344B9EE3779E214703 /* LedgerFace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A122C3A7D0756F96A7DCBD2 /* LedgerFace.swift */; };
+		467C914B7A9AFB54243AED10 /* FaceMotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090438427D7EFE3A8EC813ED /* FaceMotion.swift */; };
+		46BB39876F8BCA75C6BD8460 /* QuitMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E324CC139E3D080E33240AC /* QuitMark.swift */; };
+		49A13C3BF4478A9D34CB4CE2 /* LedgerRimLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E784DD7844D4758D5746916 /* LedgerRimLayout.swift */; };
+		4A720AC767D774FC056BC723 /* Hand.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA6B82D04670F6110E143EB /* Hand.swift */; };
+		4C0D2C25DE0B0899E4A3A8D0 /* ScotPinSupplementary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4293A53200888A4A259D6E /* ScotPinSupplementary.swift */; };
+		51492072BE2566FFB4201E48 /* FaceSeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C98B22C7ED5FDB62DE623A3 /* FaceSeed.swift */; };
+		59059889CFA95C2D00FA285B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA9BC54A8BBB7FB834DCD7C /* ContentView.swift */; };
+		5CEDDF35A3F786A5BCB6F513 /* FaceFigures.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C98BD033536F70121494B9 /* FaceFigures.swift */; };
+		66099FE218E0DEC3D1CCDEA5 /* FaceChrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC3EE9F82C2EAA9DCF93349 /* FaceChrome.swift */; };
+		6AF644F3DC60AAA2CD767D16 /* FaceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A86A61BE80D2C547EC97B8 /* FaceKey.swift */; };
+		6C2AF9619046D6AB3E91A27F /* OneSignalInAppMessages in Frameworks */ = {isa = PBXBuildFile; productRef = AF54DFE5AF9F39B925C63050 /* OneSignalInAppMessages */; };
+		6F7456AEB9CA06BBB8478019 /* FaceCourier.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4240BE142DEC8C122415467 /* FaceCourier.swift */; };
+		78ECAEB0231EBB3C7D682637 /* ScotageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B615D2B1E9C05627AEA55DE /* ScotageTests.swift */; };
+		7A116A7F8815428DCA44AEBF /* InsightsSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930233F4666186ED8AB950BB /* InsightsSheet.swift */; };
+		7CD6946063B877429AF6DC97 /* FaceReviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C672AE95D4A144C795D67A20 /* FaceReviewTests.swift */; };
+		7FC942FF5068F9163A3AE8BC /* FaceRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D90E2F4F035090EC3C402D1 /* FaceRadius.swift */; };
+		819BF4AC66222D987824181B /* FaceSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2872E23B4A845943871FADE7 /* FaceSpace.swift */; };
+		81B03CEFA564FF718B4C4601 /* ScotageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF0A6A124F909DFFBA1C70 /* ScotageApp.swift */; };
+		83033CF5CFEE9ABF5B2D66C7 /* FaceCourierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585AA21AE7D93C5A4433948F /* FaceCourierTests.swift */; };
+		88F1E14517091DE98E5F6F42 /* FaceInk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A4F72ACC4B0B20097EAFEF /* FaceInk.swift */; };
+		8C59D57139532B343335179B /* FaceDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4C17CFEBBD4F29A317C79D /* FaceDocument.swift */; };
+		9F79250B8B1C6515BD919B10 /* FaceDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = F507DB86784C2F038E1857A1 /* FaceDay.swift */; };
+		A17DE737D852668D76DBD530 /* HoldMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898BB6F5EBE2D03A0D02DCA6 /* HoldMark.swift */; };
+		A28BD165890D36461C0C8378 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = D1930F9E655209DA07C6F070 /* Alamofire */; };
+		A4847F4FA55DBB8BC216416E /* PreceptFoldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E9573ECB1E8A565DB58A4E /* PreceptFoldTests.swift */; };
+		A8DC0F8B02B4587A6643FFFF /* SettingsSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184E87B6AD0133BF875FF7F0 /* SettingsSheet.swift */; };
+		AB4BD34098F6FB8CDDF00D87 /* FaceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3670326C3E51B2DA781206E4 /* FaceType.swift */; };
+		AB995D916D365BEB66856843 /* FaceVault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8403410050914164A0C78F1E /* FaceVault.swift */; };
+		BC22D87C79C20040CE98CD38 /* NeedleSupplementary.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07AEA692EA12348897CCAEA /* NeedleSupplementary.swift */; };
+		BE307E59FCC1B30CCAC02F1D /* FacePress.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40A3646EAB403BA55066119 /* FacePress.swift */; };
+		C13E46CAAD815A91FC1ED314 /* TwistSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EBD500DC3E7332F52BF150 /* TwistSheet.swift */; };
+		C4DE83F025A4F0FC8E51C258 /* FacePaint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F40B355ECCE5A6EF04E86E /* FacePaint.swift */; };
+		C6A1ED1DEF292EDC2B317BC0 /* FaceArt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6336B4B9C57BE53CE5A1DC /* FaceArt.swift */; };
+		C6E9969A8567389AB0BBB8BB /* FaceStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9A186F07A051BAED2E19F8 /* FaceStore.swift */; };
+		C99CDD0F2F00CE601AED04A8 /* FaceStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFAC66490FA8F177B7B2BA /* FaceStoreTests.swift */; };
+		CCF2A83963562816147AF0DD /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F83BF79C0C29DCBBAD6739B /* NotificationService.swift */; };
+		D3420BEF53270E8028155FAF /* FaceSurface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A456E4F4E20EE186E2EE3C /* FaceSurface.swift */; };
+		D77CA277CB8D96EDC853E186 /* LotRimCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A04ECE3313EFA26E9AF8209 /* LotRimCell.swift */; };
+		DD1CC011D23316325E6F2891 /* FaceCopy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF4F6F5964C72D653B8A97F /* FaceCopy.swift */; };
+		E088016EE9E4E926EDFB3961 /* OneSignalNotificationServiceExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = FDE0222C6100C904255AC3FD /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E5B278C00041095FCC052BB5 /* OneSignalFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 8876FFFF03C8E47E848D2F9B /* OneSignalFramework */; };
+		E98C9CBEEE69A182C1C334EB /* FaceDeskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CA8A635403A3C8E357F810 /* FaceDeskTests.swift */; };
+		EF7A88F2963B5914BEEA12CE /* FamilyInvariantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E49C1A303C3E521B2B7AF7 /* FamilyInvariantTests.swift */; };
+		F1BD5886CE62AAE340A52180 /* FaceOnboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCB1D67EDE05AA3FB54BEC1 /* FaceOnboarding.swift */; };
+		F21C6C661A5C36F6E3A43245 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD7654E84E211783D37015C2 /* Assets.xcassets */; };
+		F80D5B5D7795AED73916C945 /* OneSignalExtension in Frameworks */ = {isa = PBXBuildFile; productRef = 010F5D7CFB03AE1AD0393990 /* OneSignalExtension */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A2861D908DF54B12D768BB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60730E6A2A0A018203B3C9BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B31BBE4992AD55D4D2F7270C;
+			remoteInfo = OneSignalNotificationServiceExtension;
+		};
+		E3E265D10DA8525DC58C62E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60730E6A2A0A018203B3C9BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BBB4E7DEF179FA10F07BBEB;
+			remoteInfo = Scotage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1A22DE6ED7DC976B4142F1B3 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E088016EE9E4E926EDFB3961 /* OneSignalNotificationServiceExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		090438427D7EFE3A8EC813ED /* FaceMotion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceMotion.swift; sourceTree = "<group>"; };
+		0B615D2B1E9C05627AEA55DE /* ScotageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScotageTests.swift; sourceTree = "<group>"; };
+		0F4C17CFEBBD4F29A317C79D /* FaceDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceDocument.swift; sourceTree = "<group>"; };
+		184E87B6AD0133BF875FF7F0 /* SettingsSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSheet.swift; sourceTree = "<group>"; };
+		21E9573ECB1E8A565DB58A4E /* PreceptFoldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreceptFoldTests.swift; sourceTree = "<group>"; };
+		2872E23B4A845943871FADE7 /* FaceSpace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceSpace.swift; sourceTree = "<group>"; };
+		3670326C3E51B2DA781206E4 /* FaceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceType.swift; sourceTree = "<group>"; };
+		3C9A186F07A051BAED2E19F8 /* FaceStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceStore.swift; sourceTree = "<group>"; };
+		3D90E2F4F035090EC3C402D1 /* FaceRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceRadius.swift; sourceTree = "<group>"; };
+		42A4F72ACC4B0B20097EAFEF /* FaceInk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceInk.swift; sourceTree = "<group>"; };
+		47F40B355ECCE5A6EF04E86E /* FacePaint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacePaint.swift; sourceTree = "<group>"; };
+		4A122C3A7D0756F96A7DCBD2 /* LedgerFace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LedgerFace.swift; sourceTree = "<group>"; };
+		4B9FEB3F7FA08DB099199A73 /* Scot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scot.swift; sourceTree = "<group>"; };
+		4C98B22C7ED5FDB62DE623A3 /* FaceSeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceSeed.swift; sourceTree = "<group>"; };
+		4D4293A53200888A4A259D6E /* ScotPinSupplementary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScotPinSupplementary.swift; sourceTree = "<group>"; };
+		4DCB1D67EDE05AA3FB54BEC1 /* FaceOnboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceOnboarding.swift; sourceTree = "<group>"; };
+		52EBD500DC3E7332F52BF150 /* TwistSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwistSheet.swift; sourceTree = "<group>"; };
+		585AA21AE7D93C5A4433948F /* FaceCourierTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceCourierTests.swift; sourceTree = "<group>"; };
+		5A6336B4B9C57BE53CE5A1DC /* FaceArt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceArt.swift; sourceTree = "<group>"; };
+		5E324CC139E3D080E33240AC /* QuitMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuitMark.swift; sourceTree = "<group>"; };
+		60CA8A635403A3C8E357F810 /* FaceDeskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceDeskTests.swift; sourceTree = "<group>"; };
+		6A04ECE3313EFA26E9AF8209 /* LotRimCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotRimCell.swift; sourceTree = "<group>"; };
+		71CFAC66490FA8F177B7B2BA /* FaceStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceStoreTests.swift; sourceTree = "<group>"; };
+		72A86A61BE80D2C547EC97B8 /* FaceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceKey.swift; sourceTree = "<group>"; };
+		73B80C7BDEED5338EDCCEA8F /* LotComposerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotComposerCell.swift; sourceTree = "<group>"; };
+		7652274A931F6E3CFC2019AB /* FaceDesk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceDesk.swift; sourceTree = "<group>"; };
+		79B93421D254B913A91306B1 /* Face.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Face.swift; sourceTree = "<group>"; };
+		7E784DD7844D4758D5746916 /* LedgerRimLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LedgerRimLayout.swift; sourceTree = "<group>"; };
+		81C5A1F616AC4ED34AB437CE /* FaceReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceReview.swift; sourceTree = "<group>"; };
+		8403410050914164A0C78F1E /* FaceVault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceVault.swift; sourceTree = "<group>"; };
+		87DDB1467D03CA3F59547200 /* LedgerBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LedgerBoard.swift; sourceTree = "<group>"; };
+		898BB6F5EBE2D03A0D02DCA6 /* HoldMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoldMark.swift; sourceTree = "<group>"; };
+		8E82BC4774D3B2E9EB849216 /* ScotageTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = ScotageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EE93B7417062F0FCCF23A7C /* Lot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lot.swift; sourceTree = "<group>"; };
+		8F83BF79C0C29DCBBAD6739B /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		8FF4F6F5964C72D653B8A97F /* FaceCopy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceCopy.swift; sourceTree = "<group>"; };
+		91E49C1A303C3E521B2B7AF7 /* FamilyInvariantTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyInvariantTests.swift; sourceTree = "<group>"; };
+		930233F4666186ED8AB950BB /* InsightsSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightsSheet.swift; sourceTree = "<group>"; };
+		96A456E4F4E20EE186E2EE3C /* FaceSurface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceSurface.swift; sourceTree = "<group>"; };
+		A4240BE142DEC8C122415467 /* FaceCourier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceCourier.swift; sourceTree = "<group>"; };
+		AAC3EE9F82C2EAA9DCF93349 /* FaceChrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceChrome.swift; sourceTree = "<group>"; };
+		BA9B6203BFF0A5096830446B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C0C98BD033536F70121494B9 /* FaceFigures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceFigures.swift; sourceTree = "<group>"; };
+		C672AE95D4A144C795D67A20 /* FaceReviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceReviewTests.swift; sourceTree = "<group>"; };
+		CBF28D473830565D0A4516B7 /* Scotage.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Scotage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD7654E84E211783D37015C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D07AEA692EA12348897CCAEA /* NeedleSupplementary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeedleSupplementary.swift; sourceTree = "<group>"; };
+		DCDF0A6A124F909DFFBA1C70 /* ScotageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScotageApp.swift; sourceTree = "<group>"; };
+		E40A3646EAB403BA55066119 /* FacePress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacePress.swift; sourceTree = "<group>"; };
+		E7BE47A23A7EE49A043A140E /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		EBA6B82D04670F6110E143EB /* Hand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hand.swift; sourceTree = "<group>"; };
+		EBA9BC54A8BBB7FB834DCD7C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F0006E50D1523202093C86F3 /* LedgerRimLayoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LedgerRimLayoutTests.swift; sourceTree = "<group>"; };
+		F507DB86784C2F038E1857A1 /* FaceDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceDay.swift; sourceTree = "<group>"; };
+		F8A8267F70B044C8D556B48E /* LotComposerForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotComposerForm.swift; sourceTree = "<group>"; };
+		FA1D30B6480EAF35E1768278 /* YearInscriptionSupplementary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearInscriptionSupplementary.swift; sourceTree = "<group>"; };
+		FDE0222C6100C904255AC3FD /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49ECF5A4DB9C8CEFF3D57CF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A28BD165890D36461C0C8378 /* Alamofire in Frameworks */,
+				E5B278C00041095FCC052BB5 /* OneSignalFramework in Frameworks */,
+				6C2AF9619046D6AB3E91A27F /* OneSignalInAppMessages in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F47D032A2FA1961ABF06085C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F80D5B5D7795AED73916C945 /* OneSignalExtension in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E6932F74F91958D667BAF46 /* QuitMark */ = {
+			isa = PBXGroup;
+			children = (
+				5E324CC139E3D080E33240AC /* QuitMark.swift */,
+			);
+			path = QuitMark;
+			sourceTree = "<group>";
+		};
+		202216DE62F0BC8136C83073 /* Scot */ = {
+			isa = PBXGroup;
+			children = (
+				4B9FEB3F7FA08DB099199A73 /* Scot.swift */,
+				4D4293A53200888A4A259D6E /* ScotPinSupplementary.swift */,
+			);
+			path = Scot;
+			sourceTree = "<group>";
+		};
+		2D6C529BC0F85DB378D1AA36 /* Scotage */ = {
+			isa = PBXGroup;
+			children = (
+				E7BE47A23A7EE49A043A140E /* APIConfig.swift */,
+				BA9B6203BFF0A5096830446B /* AppDelegate.swift */,
+				CD7654E84E211783D37015C2 /* Assets.xcassets */,
+				EBA9BC54A8BBB7FB834DCD7C /* ContentView.swift */,
+				DCDF0A6A124F909DFFBA1C70 /* ScotageApp.swift */,
+				8ECA5AEE7485674B286CAD36 /* DesignSystem */,
+				39360E7F18A5E0834AAC2A55 /* Face */,
+				CE4687EA8179BBB937F406CB /* Hand */,
+				3FD8D29A0260E953174C4780 /* HoldMark */,
+				643493197BEF1B5D84EEAC0E /* Lot */,
+				1E6932F74F91958D667BAF46 /* QuitMark */,
+				202216DE62F0BC8136C83073 /* Scot */,
+			);
+			path = Scotage;
+			sourceTree = "<group>";
+		};
+		39360E7F18A5E0834AAC2A55 /* Face */ = {
+			isa = PBXGroup;
+			children = (
+				79B93421D254B913A91306B1 /* Face.swift */,
+				AAC3EE9F82C2EAA9DCF93349 /* FaceChrome.swift */,
+				8FF4F6F5964C72D653B8A97F /* FaceCopy.swift */,
+				A4240BE142DEC8C122415467 /* FaceCourier.swift */,
+				F507DB86784C2F038E1857A1 /* FaceDay.swift */,
+				7652274A931F6E3CFC2019AB /* FaceDesk.swift */,
+				0F4C17CFEBBD4F29A317C79D /* FaceDocument.swift */,
+				C0C98BD033536F70121494B9 /* FaceFigures.swift */,
+				72A86A61BE80D2C547EC97B8 /* FaceKey.swift */,
+				4DCB1D67EDE05AA3FB54BEC1 /* FaceOnboarding.swift */,
+				81C5A1F616AC4ED34AB437CE /* FaceReview.swift */,
+				4C98B22C7ED5FDB62DE623A3 /* FaceSeed.swift */,
+				3C9A186F07A051BAED2E19F8 /* FaceStore.swift */,
+				8403410050914164A0C78F1E /* FaceVault.swift */,
+				930233F4666186ED8AB950BB /* InsightsSheet.swift */,
+				87DDB1467D03CA3F59547200 /* LedgerBoard.swift */,
+				4A122C3A7D0756F96A7DCBD2 /* LedgerFace.swift */,
+				7E784DD7844D4758D5746916 /* LedgerRimLayout.swift */,
+				184E87B6AD0133BF875FF7F0 /* SettingsSheet.swift */,
+				52EBD500DC3E7332F52BF150 /* TwistSheet.swift */,
+				FA1D30B6480EAF35E1768278 /* YearInscriptionSupplementary.swift */,
+			);
+			path = Face;
+			sourceTree = "<group>";
+		};
+		3FD8D29A0260E953174C4780 /* HoldMark */ = {
+			isa = PBXGroup;
+			children = (
+				898BB6F5EBE2D03A0D02DCA6 /* HoldMark.swift */,
+			);
+			path = HoldMark;
+			sourceTree = "<group>";
+		};
+		5449C9F3FF0C73F94696A5B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDE0222C6100C904255AC3FD /* OneSignalNotificationServiceExtension.appex */,
+				CBF28D473830565D0A4516B7 /* Scotage.app */,
+				8E82BC4774D3B2E9EB849216 /* ScotageTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5480C4149900532449FD65CB /* ScotageTests */ = {
+			isa = PBXGroup;
+			children = (
+				585AA21AE7D93C5A4433948F /* FaceCourierTests.swift */,
+				60CA8A635403A3C8E357F810 /* FaceDeskTests.swift */,
+				C672AE95D4A144C795D67A20 /* FaceReviewTests.swift */,
+				71CFAC66490FA8F177B7B2BA /* FaceStoreTests.swift */,
+				91E49C1A303C3E521B2B7AF7 /* FamilyInvariantTests.swift */,
+				F0006E50D1523202093C86F3 /* LedgerRimLayoutTests.swift */,
+				21E9573ECB1E8A565DB58A4E /* PreceptFoldTests.swift */,
+				0B615D2B1E9C05627AEA55DE /* ScotageTests.swift */,
+			);
+			path = ScotageTests;
+			sourceTree = "<group>";
+		};
+		643493197BEF1B5D84EEAC0E /* Lot */ = {
+			isa = PBXGroup;
+			children = (
+				8EE93B7417062F0FCCF23A7C /* Lot.swift */,
+				73B80C7BDEED5338EDCCEA8F /* LotComposerCell.swift */,
+				F8A8267F70B044C8D556B48E /* LotComposerForm.swift */,
+				6A04ECE3313EFA26E9AF8209 /* LotRimCell.swift */,
+			);
+			path = Lot;
+			sourceTree = "<group>";
+		};
+		73FF23B737D242E1C2F1E97D /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				8F83BF79C0C29DCBBAD6739B /* NotificationService.swift */,
+			);
+			path = OneSignalNotificationServiceExtension;
+			sourceTree = "<group>";
+		};
+		8ECA5AEE7485674B286CAD36 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				5A6336B4B9C57BE53CE5A1DC /* FaceArt.swift */,
+				42A4F72ACC4B0B20097EAFEF /* FaceInk.swift */,
+				090438427D7EFE3A8EC813ED /* FaceMotion.swift */,
+				47F40B355ECCE5A6EF04E86E /* FacePaint.swift */,
+				E40A3646EAB403BA55066119 /* FacePress.swift */,
+				3D90E2F4F035090EC3C402D1 /* FaceRadius.swift */,
+				2872E23B4A845943871FADE7 /* FaceSpace.swift */,
+				96A456E4F4E20EE186E2EE3C /* FaceSurface.swift */,
+				3670326C3E51B2DA781206E4 /* FaceType.swift */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		CE4687EA8179BBB937F406CB /* Hand */ = {
+			isa = PBXGroup;
+			children = (
+				EBA6B82D04670F6110E143EB /* Hand.swift */,
+				D07AEA692EA12348897CCAEA /* NeedleSupplementary.swift */,
+			);
+			path = Hand;
+			sourceTree = "<group>";
+		};
+		F84EF78E8D368C591F70044D = {
+			isa = PBXGroup;
+			children = (
+				73FF23B737D242E1C2F1E97D /* OneSignalNotificationServiceExtension */,
+				2D6C529BC0F85DB378D1AA36 /* Scotage */,
+				5480C4149900532449FD65CB /* ScotageTests */,
+				5449C9F3FF0C73F94696A5B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1BBB4E7DEF179FA10F07BBEB /* Scotage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6ACE1E8E61175FA7C1A5431 /* Build configuration list for PBXNativeTarget "Scotage" */;
+			buildPhases = (
+				077685B46566C2A855650415 /* Sources */,
+				AFFF795F088D7B76AEB9B466 /* Resources */,
+				49ECF5A4DB9C8CEFF3D57CF6 /* Frameworks */,
+				1A22DE6ED7DC976B4142F1B3 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7C231F354FD30AB9FCD8E6A9 /* PBXTargetDependency */,
+			);
+			name = Scotage;
+			packageProductDependencies = (
+				D1930F9E655209DA07C6F070 /* Alamofire */,
+				8876FFFF03C8E47E848D2F9B /* OneSignalFramework */,
+				AF54DFE5AF9F39B925C63050 /* OneSignalInAppMessages */,
+			);
+			productName = Scotage;
+			productReference = CBF28D473830565D0A4516B7 /* Scotage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B31BBE4992AD55D4D2F7270C /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A318737E72F508DB7575574 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
+			buildPhases = (
+				0BD00139A00F6153CEF3DDD9 /* Sources */,
+				F47D032A2FA1961ABF06085C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneSignalNotificationServiceExtension;
+			packageProductDependencies = (
+				010F5D7CFB03AE1AD0393990 /* OneSignalExtension */,
+			);
+			productName = OneSignalNotificationServiceExtension;
+			productReference = FDE0222C6100C904255AC3FD /* OneSignalNotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		F624C8B5E3E34CDB16299858 /* ScotageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD6B4CEE74284DF5F0F734F5 /* Build configuration list for PBXNativeTarget "ScotageTests" */;
+			buildPhases = (
+				FC5C4C0F39A1D489049773C2 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				658FBC7402EE39722CC66AD2 /* PBXTargetDependency */,
+			);
+			name = ScotageTests;
+			packageProductDependencies = (
+			);
+			productName = ScotageTests;
+			productReference = 8E82BC4774D3B2E9EB849216 /* ScotageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60730E6A2A0A018203B3C9BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					1BBB4E7DEF179FA10F07BBEB = {
+						ProvisioningStyle = Automatic;
+					};
+					B31BBE4992AD55D4D2F7270C = {
+						ProvisioningStyle = Automatic;
+					};
+					F624C8B5E3E34CDB16299858 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 43AFB72512D99A723ADEA6FB /* Build configuration list for PBXProject "Scotage" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = F84EF78E8D368C591F70044D;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				59EF7292728BBE0DB64D7937 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				F72E1898233EBCA3104A037F /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5449C9F3FF0C73F94696A5B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1BBB4E7DEF179FA10F07BBEB /* Scotage */,
+				F624C8B5E3E34CDB16299858 /* ScotageTests */,
+				B31BBE4992AD55D4D2F7270C /* OneSignalNotificationServiceExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFFF795F088D7B76AEB9B466 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F21C6C661A5C36F6E3A43245 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		077685B46566C2A855650415 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06A0D43D78858D7CA9F51576 /* APIConfig.swift in Sources */,
+				16651AAC6850667A149EF311 /* AppDelegate.swift in Sources */,
+				59059889CFA95C2D00FA285B /* ContentView.swift in Sources */,
+				142FCCCA7BCA588C387CFE9A /* Face.swift in Sources */,
+				C6A1ED1DEF292EDC2B317BC0 /* FaceArt.swift in Sources */,
+				66099FE218E0DEC3D1CCDEA5 /* FaceChrome.swift in Sources */,
+				DD1CC011D23316325E6F2891 /* FaceCopy.swift in Sources */,
+				6F7456AEB9CA06BBB8478019 /* FaceCourier.swift in Sources */,
+				9F79250B8B1C6515BD919B10 /* FaceDay.swift in Sources */,
+				162DF92A773EEA0530E626F4 /* FaceDesk.swift in Sources */,
+				8C59D57139532B343335179B /* FaceDocument.swift in Sources */,
+				5CEDDF35A3F786A5BCB6F513 /* FaceFigures.swift in Sources */,
+				88F1E14517091DE98E5F6F42 /* FaceInk.swift in Sources */,
+				6AF644F3DC60AAA2CD767D16 /* FaceKey.swift in Sources */,
+				467C914B7A9AFB54243AED10 /* FaceMotion.swift in Sources */,
+				F1BD5886CE62AAE340A52180 /* FaceOnboarding.swift in Sources */,
+				C4DE83F025A4F0FC8E51C258 /* FacePaint.swift in Sources */,
+				BE307E59FCC1B30CCAC02F1D /* FacePress.swift in Sources */,
+				7FC942FF5068F9163A3AE8BC /* FaceRadius.swift in Sources */,
+				1D0DC77E8FB5643F2538517E /* FaceReview.swift in Sources */,
+				51492072BE2566FFB4201E48 /* FaceSeed.swift in Sources */,
+				819BF4AC66222D987824181B /* FaceSpace.swift in Sources */,
+				C6E9969A8567389AB0BBB8BB /* FaceStore.swift in Sources */,
+				D3420BEF53270E8028155FAF /* FaceSurface.swift in Sources */,
+				AB4BD34098F6FB8CDDF00D87 /* FaceType.swift in Sources */,
+				AB995D916D365BEB66856843 /* FaceVault.swift in Sources */,
+				4A720AC767D774FC056BC723 /* Hand.swift in Sources */,
+				A17DE737D852668D76DBD530 /* HoldMark.swift in Sources */,
+				7A116A7F8815428DCA44AEBF /* InsightsSheet.swift in Sources */,
+				2F72322BAFAC2036E97392E4 /* LedgerBoard.swift in Sources */,
+				417F85344B9EE3779E214703 /* LedgerFace.swift in Sources */,
+				49A13C3BF4478A9D34CB4CE2 /* LedgerRimLayout.swift in Sources */,
+				34D6133933DCB839B1E85C45 /* Lot.swift in Sources */,
+				22BAA6E1C54CC6941F62C296 /* LotComposerCell.swift in Sources */,
+				40649E62B1FFC6B57E675CFC /* LotComposerForm.swift in Sources */,
+				D77CA277CB8D96EDC853E186 /* LotRimCell.swift in Sources */,
+				BC22D87C79C20040CE98CD38 /* NeedleSupplementary.swift in Sources */,
+				46BB39876F8BCA75C6BD8460 /* QuitMark.swift in Sources */,
+				15A318AAF9974A0525BF883D /* Scot.swift in Sources */,
+				4C0D2C25DE0B0899E4A3A8D0 /* ScotPinSupplementary.swift in Sources */,
+				81B03CEFA564FF718B4C4601 /* ScotageApp.swift in Sources */,
+				A8DC0F8B02B4587A6643FFFF /* SettingsSheet.swift in Sources */,
+				C13E46CAAD815A91FC1ED314 /* TwistSheet.swift in Sources */,
+				163F7C88EF20B450D6D9FBD5 /* YearInscriptionSupplementary.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BD00139A00F6153CEF3DDD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF2A83963562816147AF0DD /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC5C4C0F39A1D489049773C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83033CF5CFEE9ABF5B2D66C7 /* FaceCourierTests.swift in Sources */,
+				E98C9CBEEE69A182C1C334EB /* FaceDeskTests.swift in Sources */,
+				7CD6946063B877429AF6DC97 /* FaceReviewTests.swift in Sources */,
+				C99CDD0F2F00CE601AED04A8 /* FaceStoreTests.swift in Sources */,
+				EF7A88F2963B5914BEEA12CE /* FamilyInvariantTests.swift in Sources */,
+				276A700513150D6C9499CF49 /* LedgerRimLayoutTests.swift in Sources */,
+				A4847F4FA55DBB8BC216416E /* PreceptFoldTests.swift in Sources */,
+				78ECAEB0231EBB3C7D682637 /* ScotageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		658FBC7402EE39722CC66AD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BBB4E7DEF179FA10F07BBEB /* Scotage */;
+			targetProxy = E3E265D10DA8525DC58C62E8 /* PBXContainerItemProxy */;
+		};
+		7C231F354FD30AB9FCD8E6A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B31BBE4992AD55D4D2F7270C /* OneSignalNotificationServiceExtension */;
+			targetProxy = 9A2861D908DF54B12D768BB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		383BA82F5720630DC0CAB183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.scotage.face.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scotage.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Scotage";
+			};
+			name = Debug;
+		};
+		67C468A0A0C31D9BA7B0CA3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_ASSET_SYMBOLS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				CODE_SIGN_ENTITLEMENTS = Support/Scotage.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Support/Scotage-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Scotage;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app does not use the camera.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scotage.face;
+				PRODUCT_NAME = Scotage;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6B5F13282669190C4CFF4325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Release;
+		};
+		7B7A7617519BB0314C3BA31A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.scotage.face.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scotage.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Scotage";
+			};
+			name = Release;
+		};
+		88CCF1F0E758B83C386D2D97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_ASSET_SYMBOLS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				CODE_SIGN_ENTITLEMENTS = Support/Scotage.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Support/Scotage-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Scotage;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app does not use the camera.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scotage.face;
+				PRODUCT_NAME = Scotage;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A8A9463F115013BA2E22EBB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Support/OneSignalNotificationServiceExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Support/OneSignalNotificationServiceExtension-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scotage.face.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = OneSignalNotificationServiceExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B4E809BDBAB57DB19BC76FDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Support/OneSignalNotificationServiceExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Support/OneSignalNotificationServiceExtension-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scotage.face.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = OneSignalNotificationServiceExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F748B2F590932DB637DB193F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43AFB72512D99A723ADEA6FB /* Build configuration list for PBXProject "Scotage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F748B2F590932DB637DB193F /* Debug */,
+				6B5F13282669190C4CFF4325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5A318737E72F508DB7575574 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4E809BDBAB57DB19BC76FDC /* Debug */,
+				A8A9463F115013BA2E22EBB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A6ACE1E8E61175FA7C1A5431 /* Build configuration list for PBXNativeTarget "Scotage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67C468A0A0C31D9BA7B0CA3E /* Debug */,
+				88CCF1F0E758B83C386D2D97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DD6B4CEE74284DF5F0F734F5 /* Build configuration list for PBXNativeTarget "ScotageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				383BA82F5720630DC0CAB183 /* Debug */,
+				7B7A7617519BB0314C3BA31A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		59EF7292728BBE0DB64D7937 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/wrandecima-bit/Alamofire";
+			requirement = {
+				kind = revision;
+				revision = 7fdd403089757be2ce6991b287c7bef612c8bd04;
+			};
+		};
+		F72E1898233EBCA3104A037F /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/OneSignal/OneSignal-XCFramework";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		010F5D7CFB03AE1AD0393990 /* OneSignalExtension */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F72E1898233EBCA3104A037F /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignalExtension;
+		};
+		8876FFFF03C8E47E848D2F9B /* OneSignalFramework */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F72E1898233EBCA3104A037F /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignalFramework;
+		};
+		AF54DFE5AF9F39B925C63050 /* OneSignalInAppMessages */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F72E1898233EBCA3104A037F /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignalInAppMessages;
+		};
+		D1930F9E655209DA07C6F070 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 59EF7292728BBE0DB64D7937 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 60730E6A2A0A018203B3C9BF /* Project object */;
+}

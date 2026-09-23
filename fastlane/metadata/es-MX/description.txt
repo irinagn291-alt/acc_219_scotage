@@ -1,0 +1,10 @@
+Scotage es un registro personal de cargos que se cobran este mes. Un tope marca el mes que puedes soportar. La manecilla apunta al cargo con mayor exceso para que ese toque registre la baja.
+
+• Los cargos que se cobran ahora rodean el aro. La aguja es el total mensual normalizado por periodo. El año es ese total por doce. El ahorro por bajas es la suma de los cargos dados de baja.
+• Agrega un cargo con Nombre del cargo, Monto, Periodo (Semanal, Mensual, Anual o Sin periodo) y Próximo cargo.
+• Solo el cargo apuntado puede darse de baja. Ese toque registra una baja y la aguja desciende. Cualquier otro toque enfría el arco y deja la manecilla.
+• Análisis lista Marcas de baja, Fallos enfriados, Exceso restante y Cargos desconocidos (Sin periodo o Día de cargo compartido).
+• Ajustes incluye Moneda, Marca de tope, Recordatorio local, Hora del recordatorio, Contacto, Cómo funciona Apuntar y dar de baja, Repetir la introducción y Borrar todos los datos.
+• La moneda permanece en este dispositivo. No hay inicio de sesión bancario.
+
+Abre Análisis para leer las bajas registradas. Abre Ajustes para fijar el tope. Cómo funciona Apuntar y dar de baja explica que solo el cargo apuntado puede darse de baja.

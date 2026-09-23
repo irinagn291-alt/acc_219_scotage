@@ -1,0 +1,1 @@
+suscripción,mensual,presupuesto,cuentas,recurrente,baja,cargo,tope,análisis,exceso,alerta,moneda

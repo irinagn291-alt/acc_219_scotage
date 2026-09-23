@@ -1,0 +1,5 @@
+La versión 1.0 es el primer lanzamiento.
+
+La carátula de tasa muestra los cargos que se cobran este mes. Fija una marca de tope para el mes que puedes soportar. Agrega un cargo con Nombre del cargo, Monto, Periodo y Próximo cargo. Toca el cargo apuntado para registrar la baja. La aguja desciende y el ahorro por bajas sube. Un fallo enfría el arco equivocado y deja la manecilla.
+
+Análisis lista Marcas de baja, Fallos enfriados, Exceso restante y Cargos desconocidos. Ajustes incluye Moneda, Marca de tope, Recordatorio local, Contacto, Cómo funciona Apuntar y dar de baja, Repetir la introducción y Borrar todos los datos. La moneda permanece en este dispositivo. No hay inicio de sesión bancario.

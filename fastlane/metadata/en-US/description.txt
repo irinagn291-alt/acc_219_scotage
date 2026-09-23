@@ -1,0 +1,10 @@
+Scotage is a personal log of lots that bill this month. A Scot pin marks the month you can bear. The hand aims at the largest overrun lot so that tap can file it quit.
+
+• Lots that bill now ring the rim. The needle is the period-normalized month total. Year is that total times twelve. Cancel-savings is the sum of quit lots.
+• Add a lot with Lot name, Amount, Period (Weekly, Monthly, Yearly, or No period), and Next charge.
+• Only the aimed lot can quit. That tap files a quit and the needle falls. Any other tap cools the arc and leaves the hand.
+• Insights lists Quit marks, Cooled misses, Leftover overrun, and Mystery charges (No period or Shared charge day).
+• Settings holds Currency, Scot pin, Local reminder, Reminder time, Contact, How Aim then Quit works, Re-run onboarding, and Reset all data.
+• Currency stays on this device. There is no bank login.
+
+Open Insights to read filed quits. Open Settings to set the Scot. How Aim then Quit works explains that only the aimed lot can quit.
