@@ -1,1 +1,0 @@
-subscription,monthly,budget,bills,recurring,quit,lot,scot,insights,overrun,reminder,currency
